@@ -1,8 +1,17 @@
 # vimfiles
 
-One-liner:
+## Installation
 
-    rm -fR ~/.vim && git clone https://github.com/codegram/vimfiles.git ~/.vim && rm ~/.vimrc && ln -s ~/.vim/vimrc ~/.vimrc && curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh | sh && vim +NeoBundleInstall +qa! && clear && echo "Done! :)"
+Install last vim version with homebrew:
+
+    brew update
+    brew install vim
+
+Install [Monaco patched font](https://gist.github.com/victorblasco/e37cadde3c59acf8384b).
+
+Run one-liner:
+
+    rm -fR ~/.vim && git clone https://github.com/victorblasco/vimfiles.git ~/.vim && rm ~/.vimrc && ln -s ~/.vim/vimrc ~/.vimrc && curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh | sh && vim +NeoBundleInstall +qa! && clear && echo "Done! :)"
 
 ## Custom mappings
 
