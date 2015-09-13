@@ -74,8 +74,8 @@ Use Git from Vim.
 * `:Gist [-p|-P]`: Post a [p]rivate or [P]ublic gist with the current buffer.
   You can also run it from Visual mode to post only a part.
 
-### [vim-tcomment](https://github.com/jmartindf/vim-tcomment)
+### [vim-commentary](https://github.com/tpope/vim-commentary)
 
 Comments any kind of code.
 
-* `,co`: In visual mode, comments the selected block.
+* `,gc`: In visual mode, comments the selected block.

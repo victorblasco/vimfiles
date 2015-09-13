@@ -18,7 +18,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " BUNDLES
 " -------
 
-NeoBundle 'jmartindf/vim-tcomment'
+NeoBundle 'tpope/vim-commentary'
 NeoBundle 'kien/ctrlp.vim'
 
 NeoBundle 'mattn/webapi-vim'
@@ -227,9 +227,6 @@ nnoremap <silent> <Leader>b :TagbarToggle<CR>
 let g:ctrlp_map = '<leader>o'
 let g:ctrlp_working_path_mode = 'ra'
 map <leader>c :CtrlPTag<cr>
-
-" TComment
-map <Leader>co :TComment<CR>
 
 " AutoClose
 let g:AutoClosePairs = {'(': ')', '{': '}', '[': ']', '"': '"', "'": "'", '#{': '}'}
