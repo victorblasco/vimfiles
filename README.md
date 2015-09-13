@@ -36,6 +36,9 @@ Run one-liner:
 
 ### Splits
 * `,v` opens a new vertical split and switches to it.
+* `,b` opens a new horizontal split and switches to it.
+* `,h` closes the current split.
+* `,f` closes all the splits except the current one.
 * `<C-h>` switches to the left split.
 * `<C-j>` switches to the split below.
 * `<C-k>` switches to the split above.
