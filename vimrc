@@ -59,7 +59,10 @@ NeoBundle 'rizzatti/dash.vim'
 
 NeoBundle 'gcmt/wildfire.vim'
 
+" Themes
 NeoBundle 'sjl/badwolf'
+NeoBundle 'ajh17/Spacegray.vim'
+NeoBundle 'w0ng/vim-hybrid'
 
 call neobundle#end()
 
@@ -286,6 +289,6 @@ if &term =~ '256color'
   set t_ut=
 endif
 
-colorscheme badwolf
+colorscheme hybrid_reverse
 
 NeoBundleCheck
