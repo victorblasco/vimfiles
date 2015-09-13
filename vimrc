@@ -32,6 +32,8 @@ NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'Townk/vim-autoclose'
 NeoBundle 'scrooloose/syntastic'
 
+NeoBundle 'bling/vim-airline'
+
 " Elixir
 NeoBundle 'elixir-lang/vim-elixir'
 
@@ -264,6 +266,10 @@ nmap <leader>s <Plug>(wildfire-quick-select)
 
 " NERDTree
 map <C-n> :NERDTreeToggle<CR>
+
+" vim-airline
+set laststatus=2
+let g:airline_powerline_fonts = 1
 
 " --------------------
 " CUSTOM CONFIGURATION
