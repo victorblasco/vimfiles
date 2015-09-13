@@ -32,6 +32,8 @@ NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'Townk/vim-autoclose'
 NeoBundle 'scrooloose/syntastic'
 
+" Elixir
+NeoBundle 'elixir-lang/vim-elixir'
 
 " Clojure
 NeoBundle 'guns/vim-clojure-static'
