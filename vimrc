@@ -21,6 +21,10 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'tpope/vim-commentary'
 NeoBundle 'kien/ctrlp.vim'
 
+" NERDTree
+NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'Xuyuanp/nerdtree-git-plugin'
+
 NeoBundle 'mattn/webapi-vim'
 NeoBundle 'mattn/gist-vim'
 
@@ -255,6 +259,9 @@ au Syntax * RainbowParenthesesLoadBraces
 
 " Wildfire
 nmap <leader>s <Plug>(wildfire-quick-select)
+
+" NERDTree
+map <C-n> :NERDTreeToggle<CR>
 
 " --------------------
 " CUSTOM CONFIGURATION
