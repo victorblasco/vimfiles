@@ -32,6 +32,8 @@ NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'Townk/vim-autoclose'
 NeoBundle 'scrooloose/syntastic'
 
+NeoBundle 'rking/ag.vim'
+
 NeoBundle 'bling/vim-airline'
 
 " Elixir
@@ -213,6 +215,7 @@ map <leader>n :call RenameFile()<cr>
 
 " Ag
 nmap <leader>a :Ag
+let g:ag_working_path_mode = 'r'
 
 " Rotating among results
 map <C-n> :cn<CR>
