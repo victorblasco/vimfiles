@@ -36,6 +36,8 @@ NeoBundle 'rking/ag.vim'
 
 NeoBundle 'bling/vim-airline'
 
+NeoBundle 'terryma/vim-multiple-cursors'
+
 " Elixir
 NeoBundle 'elixir-lang/vim-elixir'
 
@@ -274,7 +276,7 @@ au Syntax * RainbowParenthesesLoadBraces
 nmap <leader>s <Plug>(wildfire-quick-select)
 
 " NERDTree
-map <C-n> :NERDTreeToggle<CR>
+map <C-b> :NERDTreeToggle<CR>
 
 " vim-airline
 set laststatus=2
