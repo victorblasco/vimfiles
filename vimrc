@@ -180,6 +180,7 @@ nnoremap <leader><space> :noh<cr>
 nmap <leader><ESC> :q!<CR>
 nmap <leader>q :wqa!<CR>
 nmap <leader>w :w!<CR>
+nmap <leader>e :wa!<CR>
 
 " Switch between / delete buffers
 noremap <tab> :bn<CR>
@@ -188,9 +189,9 @@ nmap <leader>d :bd<CR>
 
 " Splits
 nnoremap <leader>v :vs<CR> <C-w>l
-nnoremap <leader>b :sp<CR> <C-w>j
-nnoremap <leader>h :hide<CR>
-nnoremap <leader>f :only<CR>
+nnoremap <leader>x :sp<CR> <C-w>j
+nnoremap <leader>d :hide<CR>
+" nnoremap <leader>f :only<CR>
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
@@ -213,6 +214,14 @@ function! RenameFile()
   endif
 endfunction
 map <leader>n :call RenameFile()<cr>
+
+" Open current split in a new tab
+function! OpenCurrentAsNewTab()
+  let l:currentPos = getcurpos()
+  tabedit %
+  call setpos(".", l:currentPos)
+endfunction
+nmap <leader>f :call OpenCurrentAsNewTab()<CR>
 
 " ------------------------
 " Plugin settings/mappings
