@@ -199,6 +199,9 @@ nnoremap <C-l> <C-w>l
 " Paste mode
 set pastetoggle=<F2>
 
+" Copy to clipboard with Ctrl-C
+map <C-c> "+y<CR>"
+
 " Rename current file
 function! RenameFile()
   let old_name = expand('%')
@@ -276,7 +279,7 @@ au Syntax * RainbowParenthesesLoadBraces
 nmap <leader>s <Plug>(wildfire-quick-select)
 
 " NERDTree
-map <C-b> :NERDTreeToggle<CR>
+map <leader>p :NERDTreeToggle<CR>
 
 " vim-airline
 set laststatus=2
