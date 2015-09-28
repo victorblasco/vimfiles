@@ -282,6 +282,12 @@ map <C-b> :NERDTreeToggle<CR>
 set laststatus=2
 let g:airline_powerline_fonts = 1
 
+" vim-multiple-cursos
+let g:multi_cursor_next_key='<C-n>'
+let g:multi_cursor_prev_key='<C-p>'
+let g:multi_cursor_skip_key='<C-x>'
+let g:multi_cursor_quit_key='<Esc>'
+
 " --------------------
 " CUSTOM CONFIGURATION
 " --------------------
