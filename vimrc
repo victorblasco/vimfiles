@@ -41,16 +41,6 @@ NeoBundle 'terryma/vim-multiple-cursors'
 " Elixir
 NeoBundle 'elixir-lang/vim-elixir'
 
-" Clojure
-NeoBundle 'guns/vim-clojure-static'
-NeoBundle 'tpope/vim-classpath'
-NeoBundle 'tpope/vim-fireplace'
-NeoBundle 'guns/vim-clojure-highlight'
-NeoBundle 'kien/rainbow_parentheses.vim'
-NeoBundle 'tpope/vim-leiningen'
-NeoBundle 'tpope/vim-projectionist'
-NeoBundle 'tpope/vim-dispatch'
-
 " Tab for completion
 NeoBundle 'ervandew/supertab'
 
@@ -277,12 +267,6 @@ let g:syntastic_check_on_open=1
 let g:syntastic_echo_current_error=0
 let g:syntastic_auto_jump=0
 let g:syntastic_auto_loc_list=0
-
-" Clojure
-au VimEnter * RainbowParenthesesToggle
-au Syntax * RainbowParenthesesLoadRound
-au Syntax * RainbowParenthesesLoadSquare
-au Syntax * RainbowParenthesesLoadBraces
 
 " Wildfire
 nmap <leader>s <Plug>(wildfire-quick-select)
