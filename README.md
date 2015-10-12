@@ -13,9 +13,13 @@ Install `the_silver_search` (needed for `ag` plugin):
 
 Install [Monaco patched font](https://gist.github.com/victorblasco/e37cadde3c59acf8384b).
 
-Run one-liner:
+Configure Vim:
 
-    rm -fR ~/.vim && git clone https://github.com/victorblasco/vimfiles.git ~/.vim && rm ~/.vimrc && ln -s ~/.vim/vimrc ~/.vimrc && curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh | sh && vim +NeoBundleInstall +qa! && clear && echo "Done! :)"
+    rm -fR ~/.vim && git clone https://github.com/victorblasco/vimfiles.git ~/.vim && rm ~/.vimrc && ln -s ~/.vim/vimrc ~/.vimrc
+
+Install NeoBundle plugins:
+
+    curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh | sh && vim +NeoBundleInstall +qa! && clear && echo "Done! :)"
 
 ## Custom mappings
 
