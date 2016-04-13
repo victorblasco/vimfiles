@@ -41,6 +41,9 @@ NeoBundle 'terryma/vim-multiple-cursors'
 " Elixir
 NeoBundle 'elixir-lang/vim-elixir'
 
+" Go
+NeoBundle 'fatih/vim-go'
+
 " Tab for completion
 NeoBundle 'ervandew/supertab'
 
@@ -126,6 +129,13 @@ set colorcolumn=79
 set tw=79
 set t_Co=256
 set iskeyword+=_
+
+" Improve performance (due to syntax highlighting)
+set nocursorcolumn
+set nocursorline
+set norelativenumber
+syntax sync minlines=50
+set synmaxcol=120
 
 if has("gui_running")
   set guioptions-=T " no toolbar
@@ -283,6 +293,9 @@ let g:multi_cursor_next_key='<C-n>'
 let g:multi_cursor_prev_key='<C-p>'
 let g:multi_cursor_skip_key='<C-x>'
 let g:multi_cursor_quit_key='<Esc>'
+
+" vim-go
+let g:go_fmt_command = "goimports"
 
 " --------------------
 " CUSTOM CONFIGURATION
