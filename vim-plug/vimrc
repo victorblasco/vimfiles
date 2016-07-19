@@ -1,67 +1,58 @@
 " vimrc
-" Author: Codegram
-" Source: https://github.com/codegram/vimfiles
+" Author: Victor Blasco
+" Source: https://github.com/victorblasco/vimfiles
 
-if !1 | finish | endif
-
-" Use NeoBundle as the plugin manager
-
-if has('vim_starting')
-  set nocompatible
-  set runtimepath+=~/.vim/bundle/neobundle.vim
-endif
-
-call neobundle#begin(expand('~/.vim/bundle/'))
-NeoBundleFetch 'Shougo/neobundle.vim'
+call plug#begin('~/.vim/plugged')
 
 " -------
-" BUNDLES
+" Plugins
 " -------
 
-NeoBundle 'tpope/vim-commentary'
-NeoBundle 'kien/ctrlp.vim'
+Plug 'tpope/vim-commentary'
+Plug 'kien/ctrlp.vim'
 
 " NERDTree
-NeoBundle 'scrooloose/nerdtree'
-NeoBundle 'Xuyuanp/nerdtree-git-plugin'
+Plug 'scrooloose/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 
-NeoBundle 'mattn/webapi-vim'
-NeoBundle 'mattn/gist-vim'
+Plug 'mattn/webapi-vim'
+Plug 'mattn/gist-vim'
 
-NeoBundle 'tpope/vim-fugitive'
-NeoBundle 'Townk/vim-autoclose'
-NeoBundle 'scrooloose/syntastic'
+Plug 'tpope/vim-fugitive'
+Plug 'Townk/vim-autoclose'
+Plug 'scrooloose/syntastic'
 
-NeoBundle 'rking/ag.vim'
+Plug 'rking/ag.vim'
 
-NeoBundle 'bling/vim-airline'
+Plug 'bling/vim-airline'
 
-NeoBundle 'terryma/vim-multiple-cursors'
+Plug 'terryma/vim-multiple-cursors'
 
 " Elixir
-NeoBundle 'elixir-lang/vim-elixir'
+Plug 'elixir-lang/vim-elixir'
 
 " Go
-NeoBundle 'fatih/vim-go'
+Plug 'fatih/vim-go'
 
 " Tab for completion
-NeoBundle 'ervandew/supertab'
+Plug 'ervandew/supertab'
 
-NeoBundle 'airblade/vim-gitgutter'
-NeoBundle 'sheerun/vim-polyglot'
-NeoBundle 'majutsushi/tagbar'
+Plug 'airblade/vim-gitgutter'
+Plug 'sheerun/vim-polyglot'
+Plug 'majutsushi/tagbar'
 
-NeoBundle 'rizzatti/funcoo.vim'
-NeoBundle 'rizzatti/dash.vim'
+" Plug 'rizzatti/funcoo.vim'
+" Plug 'rizzatti/dash.vim'
 
-NeoBundle 'gcmt/wildfire.vim'
+" Plug 'gcmt/wildfire.vim'
 
 " Themes
-NeoBundle 'sjl/badwolf'
-NeoBundle 'ajh17/Spacegray.vim'
-NeoBundle 'w0ng/vim-hybrid'
+" Plug 'sjl/badwolf'
+" Plug 'ajh17/Spacegray.vim'
+" Plug 'w0ng/vim-hybrid'
 
-call neobundle#end()
+" Add plugins to &runtimepath
+call plug#end()
 
 syntax on
 filetype plugin indent on
@@ -313,5 +304,3 @@ if &term =~ '256color'
 endif
 
 colorscheme hybrid_reverse
-
-NeoBundleCheck

@@ -13,8 +13,8 @@ Install `the_silver_search` (needed for `ag` plugin):
 
 Install [Monaco patched font](https://gist.github.com/victorblasco/e37cadde3c59acf8384b).
 
-## Plugin managers
+Reload .vimrc, open `vim` and `:PlugInstall` to install plugins.
 
-You can choose using [NeoBundle][https://github.com/Shougo/neobundle.vim] or [pathogen][https://github.com/tpope/vim-pathogen] (pending).
+## Plugin manager
 
-- [NeoBundle][https://github.com/victorblasco/vimfiles/NeoBundle]
+[vim-plug](https://github.com/junegunn/vim-plug)
