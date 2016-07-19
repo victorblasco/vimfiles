@@ -28,6 +28,9 @@ Plug 'bling/vim-airline'
 
 Plug 'terryma/vim-multiple-cursors'
 
+" Ruby
+Plug 'vim-ruby/vim-ruby'
+
 " Elixir
 Plug 'elixir-lang/vim-elixir'
 
