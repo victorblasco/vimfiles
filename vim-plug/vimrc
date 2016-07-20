@@ -24,7 +24,7 @@ Plug 'scrooloose/syntastic'
 
 Plug 'rking/ag.vim'
 
-Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline'
 
 Plug 'terryma/vim-multiple-cursors'
 
