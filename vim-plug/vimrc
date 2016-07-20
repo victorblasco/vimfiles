@@ -25,6 +25,7 @@ Plug 'scrooloose/syntastic'
 Plug 'rking/ag.vim'
 
 Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 Plug 'terryma/vim-multiple-cursors'
 
@@ -220,6 +221,9 @@ nmap <leader>f :call OpenCurrentAsNewTab()<CR>
 " ------------------------
 " Plugin settings/mappings
 " ------------------------
+
+" vim-airline theme
+let g:airline_theme = 'simple'
 
 " Ag
 nmap <leader>a :Ag
