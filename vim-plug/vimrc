@@ -218,6 +218,10 @@ function! OpenCurrentAsNewTab()
 endfunction
 nmap <leader>f :call OpenCurrentAsNewTab()<CR>
 
+" Move between tabs
+nnoremap H gT
+nnoremap L gt
+
 " ------------------------
 " Plugin settings/mappings
 " ------------------------
