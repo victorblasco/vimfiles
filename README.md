@@ -15,6 +15,8 @@ Install [Monaco patched font](https://gist.github.com/victorblasco/e37cadde3c59a
 
 Reload .vimrc, open `vim` and `:PlugInstall` to install plugins.
 
+`:GoInstallBinaries` to setup vim-go plugin.
+
 ## Plugin manager
 
 [vim-plug](https://github.com/junegunn/vim-plug)
