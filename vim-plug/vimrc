@@ -125,6 +125,10 @@ set tw=79
 set t_Co=256
 set iskeyword+=_
 
+" Maintain undo history between sessions
+set undofile
+set undodir=~/.vim/undodir
+
 " Improve performance (due to syntax highlighting)
 set nocursorcolumn
 set nocursorline
