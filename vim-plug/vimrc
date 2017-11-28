@@ -8,6 +8,9 @@ call plug#begin('~/.vim/plugged')
 " Plugins
 " -------
 
+Plug '/usr/local/opt/fzf'
+Plug 'junegunn/fzf.vim'
+
 Plug 'tpope/vim-commentary'
 Plug 'kien/ctrlp.vim'
 
