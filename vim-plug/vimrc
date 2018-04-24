@@ -36,7 +36,7 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'elixir-lang/vim-elixir'
 
 " Go
-Plug 'fatih/vim-go'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 " Tab for completion
 Plug 'ervandew/supertab'
