@@ -134,6 +134,7 @@ set nocursorcolumn
 set nocursorline
 set norelativenumber
 syntax sync minlines=50
+set regexpengine=1
 set synmaxcol=120
 
 if has("gui_running")
