@@ -294,6 +294,7 @@ nmap <leader>s <Plug>(wildfire-quick-select)
 
 " NERDTree
 map <leader>p :NERDTreeToggle<CR>
+" let NERDTreeShowHidden=1 " Show hidden files by default
 
 " vim-airline
 set laststatus=2
